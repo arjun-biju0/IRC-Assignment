@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <title>Home | IRC</title>
+  </head>
+  <body >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+              <img src="Images/kgp.png" alt="" width="100%" height="40">
+            </a>
+          </div>
+        <div class="container-fluid ">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <div class="container-fluid">           
+                    <a class="nav-link active bg-dark" aria-current="page" href="HOME.html"><img src="Images/univ_nav.png" alt="" width="30" height="30"> Universities</a>
+                </div>
+                
+              </li>
+              <li class="nav-item">
+                <div class="container-fluid">
+                <a class="nav-link" href="#"><img src="Images/applic_nav.png" alt="" width="30" height="30"> My Applications</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <div class="container-fluid">
+                <a class="nav-link" href="#"><img src="Images/bookmark_nav.png" alt="" width="30" height="30"> Bookmarks</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <div class="container-fluid">
+                <a class="nav-link" href="#"><img src="Images/notif_nav.webp" alt="" width="23" height="23"> Notifications</a>
+              </div>
+              </li> 
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div style="margin: 50px;">
+    <div class="container-fluid" >
+        <div class="d-grid gap-2 d-md-block">
+        <ul class="nav nav-pills mb-3 " id="pills-tab" role="tablist">
+            
+            <li class="nav-item col bg-dark " role="presentation" style="border-radius: 10px;">
+              <button class="nav-link active bg-dark" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true" style="border-radius: 10px; width: 100%;">All</button>
+            </li>
+            <li class="nav-item col bg-dark" role="presentation" style="border-radius: 10px;">
+              <button class="nav-link bg-dark" id="pills-north-tab" data-bs-toggle="pill" data-bs-target="#pills-north" type="button" role="tab" aria-controls="pills-north" aria-selected="false" style="border-radius: 10px; width: 100%;">North America</button>
+            </li>
+            <li class="nav-item col bg-dark" role="presentation" style="border-radius: 10px;">
+              <button class="nav-link bg-dark " id="pills-south-tab" data-bs-toggle="pill" data-bs-target="#pills-south" type="button" role="tab" aria-controls="pills-south" aria-selected="false" style="border-radius: 10px; width: 100%;">South America</button>
+            </li>
+            <li class="nav-item col bg-dark" role="presentation" style="border-radius: 10px;">
+                <button class="nav-link bg-dark" id="pills-asia-tab" data-bs-toggle="pill" data-bs-target="#pills-asia" type="button" role="tab" aria-controls="pills-asia" aria-selected="false" style="border-radius: 10px; width: 100%;">Asia</button>
+              </li>
+              <li class="nav-item col bg-dark" role="presentation" style="border-radius: 10px;">
+                <button class="nav-link bg-dark" id="pills-europe-tab" data-bs-toggle="pill" data-bs-target="#pills-europe" type="button" role="tab" aria-controls="pills-europe" aria-selected="false" style="border-radius: 10px; width: 100%;">Europe</button>
+              </li>
+              <li class="nav-item col bg-dark" role="presentation" style="border-radius: 10px;">
+                <button class="nav-link bg-dark" id="pills-australia-tab" data-bs-toggle="pill" data-bs-target="#pills-australia" type="button" role="tab" aria-controls="pills-australia" aria-selected="false" style="border-radius: 10px; width: 100%;">Australia</button>
+              </li>
+           
+          </ul>
+        </div>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+                <div class="card card-body">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" >
+                          <img src="Images/york.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title fw-bold">YORK UNIVERSITY</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Canada</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,00 CAD/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Nov. 1, 2022</p>
+                            <a href="#" class="btn btn-dark apply" id="apply">Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/kyushu.jpg" class="card-img-top" alt="..." style="height: 100%; ">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title fw-bold">KYUSHU UNIVERSITY</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Japan</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 100,000-200,000 Yen per month</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Nov. 10, 2022</p>
+                            <a href="#" class="btn btn-dark apply" id="apply2">Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/saitama.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title fw-bold">SAITAMA UNIVERSITY</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span>  Japan</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span>80,000 JPY per month</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Dec. 1, 2022</p>
+                            <a href="#" class="btn btn-dark apply" >Apply</a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" >
+                          <img src="Images/cambridge.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title fw-bold">UNIVERSITY OF CAMBRIDGE</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> UK</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,000 Pound/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Nov. 10, 2022</p>
+                            <a href="#" class="btn btn-dark apply" >Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/sydney.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title text-uppercase fw-bold">University of Sydney</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Australia</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,00 CAD/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Dec. 1, 2022</p>
+                            <a href="#" class="btn btn-dark apply" >Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/capinas.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title text-uppercase fw-bold">University of Campinas</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Brazil</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,000 CAD/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Dec. 15, 2022</p>
+                            <a href="#" class="btn btn-dark apply" >Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="pills-north" role="tabpanel" aria-labelledby="pills-north-tab">
+                <div class="card card-body fw-bold">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" >
+                          <img src="Images/york.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body">
+                            <h5 class="card-title fw-bold">YORK UNIVERSITY</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Canada</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,000 CAD/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Nov. 1, 2022</p>
+                            <a href="#" class="btn btn-dark apply" >Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-south" role="tabpanel" aria-labelledby="pills-south-tab">
+                <div class="card card-body fw-bold">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/capinas.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body">
+                            <h5 class="card-title text-uppercase fw-bold">University of Campinas</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Brazil</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,00 CAD/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Dec. 15, 2022</p>
+                            <a href="#" class="btn btn-dark apply">Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="pills-asia" role="tabpanel" aria-labelledby="pills-asia-tab">
+                <div class="card card-body">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/kyushu.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title fw-bold">KYUSHU UNIVERSITY</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Japan</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 100,000-200,000 Yen per month</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Nov. 10, 2022</p>
+                            <a href="#" class="btn btn-dark apply" >Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/saitama.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title fw-bold">SAITAMA UNIVERSITY</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Japan</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 80,000 JPY per month</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Dec. 1, 2022</p>
+                            <a href="#" class="btn btn-dark apply" >Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="pills-europe" role="tabpanel" aria-labelledby="pills-europe-tab">
+                <div class="card card-body">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card" >
+                          <img src="Images/cambridge.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title fw-bold">UNIVERSITY OF CAMBRIDGE</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> UK</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,000 Pound/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Nov. 10, 2022</p>
+                            <a href="#" class="btn btn-dark apply">Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="pills-australia" role="tabpanel" aria-labelledby="pills-australia-tab">
+                <div class="card card-body">
+                    <div class="row">
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="Images/sydney.jpg" class="card-img-top" alt="..." style="height: 100%;">
+                          <div class="card-body fw-bold">
+                            <h5 class="card-title text-uppercase fw-bold">University of Sydney</h5>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Country:</span> Australia</p>
+                            <p class="card-text"><span class="fw-bold" style="color:darkblue;">Expense: </span> 50,00 CAD/year</p>
+                            <p class="card-text" ><span class="text-danger">Deadline:</span> Dec. 1, 2022</p>
+                            <a href="#" class="btn btn-dark apply">Apply</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+       let apply= document.getElementById("apply")
+       apply.addEventListener('click', applybtn)
+       function applybtn(e){
+        
+          if(apply.textContent.includes('Apply')){
+          apply.textContent="Applied"
+        }
+        else{
+          apply.textContent="Apply"
+        }
+      }
+
+        let apply2= document.getElementById("apply2")
+       apply2.addEventListener('click', applybtn2)
+       function applybtn2(e){
+        
+          if(apply2.textContent.includes('Apply')){
+          apply2.textContent="Applied"
+        }
+        else{
+          apply2.textContent="Apply"
+        }
+      }
+
+       
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
